@@ -20,6 +20,7 @@ body {
 .bg {
   background: url('https://cdn.entertainment-focus.com/wp-content/uploads/2013/07/cosmos.jpg')
     no-repeat center center/cover;
+    /* background: url(/BlurryLoading/cosmos.jpeg) */
   position: absolute;
   top: -30px;
   left: -30px;

@@ -8,6 +8,7 @@ let load = 0
 let int = setInterval(blurring, 30)
 
 function blurring() {
+  // increment by 1
   load++
 
   if (load > 99) {
