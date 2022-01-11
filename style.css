@@ -5,22 +5,12 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Ubuntu', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
-}
-
 /* Using url image, but need to figure out how to do our own image saved on computer */
 
 .bg {
-  background: url('https://cdn.entertainment-focus.com/wp-content/uploads/2013/07/cosmos.jpg')
-    no-repeat center center/cover;
-    /* background: url(/BlurryLoading/cosmos.jpeg) */
+  /* background: url('https://cdn.entertainment-focus.com/wp-content/uploads/2013/07/cosmos.jpg')
+    no-repeat center center/cover; */
+  background: url('cosmos.jpg') no-repeat center center/cover;
   position: absolute;
   top: -30px;
   left: -30px;
@@ -34,4 +24,20 @@ body {
 .loading-text {
   font-size: 50px;
   color: #fff;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.planetButton {
+  background-color: lightyellow;
+  color: black;
+  font-size: 25px;
 }
