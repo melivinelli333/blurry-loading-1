@@ -11,16 +11,34 @@
  <input type="button" value="Go back!" onclick="history.back()">
 </form>
 </head>
-<body>
-  <section class="bg"></section>
-  <img src="image.png" alt="Planets" class="center">
+<body id="secondpage">
+  <img class='object' src="sun.png" alt="sun" id='sun'>
+  <img class='object planet' src="mercury.png" alt="mercury" id='mercury'>
+  <img class='object planet' src="venus.png" alt="venus" id='venus'>
+  <img class='object planet' src="earth.png" alt="earth" id='earth'>
+  <img class='object planet' src="mars.png" alt="mars" id='mars'>
+  <img class='object planet' src="jupiter.png" alt="jupiter" id='jupiter'>
+  <img class='object planet' src="saturn.png" alt="saturn" id='saturn'>
+  <img class='object planet' src="uranus.png" alt="uranus" id='uranus'>
+  <img class='object planet' src="neptune.png" alt="neptune" id='neptune'>
+  <div class="object" id='moon'></div>
+
+  <div class='object p-orbit'></div>
+  <div class='object p-orbit'></div>
+  <div class='object p-orbit'></div>
+  <div class='object p-orbit'></div>
+  <div class='object p-orbit'></div>
+  <div class='object p-orbit'></div>
+  <div class='object p-orbit'></div>
+  <div class='object p-orbit'></div>
+  <div class='object' id='m-orbit'></div>
+
+  <img src="asteroidbelt.png" class="object" id="belt" alt="">
+
   <div class="container">
     <button class="pButton" onclick="pFunction()">Learn more</button>
   </div>
-  <p>
-
-  </p>
-
-<script src="script.js"></script>
 </body>
+<script src="script.js"></script>
+
 </html>

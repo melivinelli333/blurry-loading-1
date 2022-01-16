@@ -26,7 +26,7 @@
   color: #fff;
 }
 
-body {
+#firstpage {
   font-family: 'Ubuntu', sans-serif;
   display: flex;
   align-items: center;
@@ -36,18 +36,8 @@ body {
   margin: 0;
 }
 
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 .planets {
+  position: middle;
   justify-content: center;
   background-color: #000;
         border: .5px solid crimson;
@@ -69,4 +59,102 @@ body {
         box-shadow: 0 0 30px 0 crimson,
                     0 0 30px 0 crimson,
                     0 0 10px 0 crimson inset;
+}
+
+
+/* Planets rotations */
+#secondpage {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  height: 200vmin;
+}
+.object{
+  border-radius:50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(50vmin);
+}
+
+.p-orbit, #m-orbit{
+  border:0.1vmin solid lightgrey;
+  opacity:0.5;
+  background: transparent;
+}
+
+#belt{
+  height:97vmin;
+  width:97vmin;
+  animation: spin 50s infinite linear;
+  margin-top: 50vmin;
+}
+
+@keyframes spin{
+  0%{transform: rotate(0deg)}
+  100%{transform: rotate(360deg)}
+}
+
+#m-orbit{
+  height:8vmin;
+  width:8vmin;
+}
+
+.planet, #moon{
+  z-index:100;
+}
+
+#sun{
+  height:12vmin;
+  width:12vmin;
+}
+
+#moon{
+  height:1vmin;
+  width: 1vmin;
+  background-color: white;
+}
+
+#mercury{
+  height:2vmin;
+  width:2vmin;
+}
+
+#venus{
+  height:3vmin;
+  width:3vmin;
+}
+
+#earth{
+  height:4vmin;
+  width:4vmin;
+}
+
+#mars{
+  height:3.5vmin;
+  width:3.5vmin;
+}
+
+#jupiter{
+  height:8vmin;
+  width:8vmin;
+}
+
+#saturn{
+  height:12vmin;
+  width:12vmin;
+  border-radius:0%;
+}
+
+#uranus{
+  height:6vmin;
+  width:6vmin;
+}
+
+#neptune{
+  height:5vmin;
+  width:5vmin;
 }
