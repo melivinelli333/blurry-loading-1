@@ -59,8 +59,24 @@
         box-shadow: 0 0 30px 0 crimson,
                     0 0 30px 0 crimson,
                     0 0 10px 0 crimson inset;
+    cursor: grab;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
+.bButton{
+  background-color: #000;
+        border: .5px solid crimson;
+        border-radius: 10px;
+        color: #fff;
+        padding: 12px;
+        box-shadow: 0 0 30px 0 crimson,
+                    0 0 30px 0 crimson,
+                    0 0 10px 0 crimson inset;
+  cursor: grab;
+  margin-top: 20px;
+  margin-left: 27px;
+}
 
 /* Planets rotations */
 #secondpage {
